@@ -205,3 +205,6 @@ tags
 
 ### Pycache file
 __pycache__
+
+### Virtualenv file
+.venv
