@@ -110,4 +110,4 @@ def roman_to_decimal(input_roman):
 
 
 if __name__ == '__main__':
-    print(roman_to_decimal('vv'))
+    print(roman_to_decimal('XIV'))
