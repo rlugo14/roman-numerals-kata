@@ -27,6 +27,7 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(44, roman_to_decimal('XLIV'))
         self.assertEqual(444, roman_to_decimal('CDXLIV'))
         self.assertEqual(999, roman_to_decimal('CMXCIX'))
+        self.assertEqual(257, roman_to_decimal('CCLVII'))
 
     def test_non_valid_repeated_values(self):
         self.assertRaises(NonValidRepeatedRomanCharacterException, roman_to_decimal('VV'))

@@ -59,6 +59,7 @@ def roman_to_decimal(input_roman):
                     analysed_string_length = len(analysed_string)
                     if analysed_string_length > 0:
                         output_decimal += analysed_string_length * roman_dictionary[analysed_string[0]]
+                        analysed_string = ''
                     repeated_roman_key = 0
 
                 elif target_decimal_value < next_decimal_value:
